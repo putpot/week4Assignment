@@ -1,0 +1,49 @@
+   *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+   }
+   div.container{
+     border: 5px solid #498b47;
+     text-align: center;
+     width: 90%;
+     margin: 0 auto 0 auto;
+   }
+   header{
+     background-color: #e8ebb5;
+   }
+   .hero img{
+     width: 100%;
+   }
+   div.left, div.middle, div.right{
+     border: 3px dotted #5d80cc ;
+     width: 32%;
+   }
+
+   aside img{
+     width: 100%;
+   }
+   aside{
+     display: flex;
+     justify-content: space-around;
+   }
+   nav{
+     background-color: dimgray;
+
+   }
+   ul{
+     text-align: center;
+   }
+   li{
+     display: inline-block;
+     width: 150px;
+     line-height: 3em;
+     background-color: gray;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-variant: small-caps;
+   }
+   a{
+     color:#ffffff ;
+     text-decoration: none;
+     display: block;
+   }
